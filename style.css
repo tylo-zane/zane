@@ -3,6 +3,7 @@
 /* CONTENT AREAS */
 
 header {
+    top: 0;
     background-color: #fefaf6;
     position: sticky;
     width: 100%;
@@ -45,7 +46,7 @@ ul li:hover {
 
 ul li a {
     text-decoration: none;
-    color: black;
+    color: #110B11;
     font-size: 1.25em;
 }
 
@@ -60,7 +61,12 @@ main {
 }
 
 .panel-img, .panel-desc {
-    flex-basis: 50%;
+    flex-basis: 40%;
+}
+
+.panel-margin {
+    width: 100%;
+    flex-basis: 20%;
 }
 
 .panel-desc {
@@ -69,23 +75,33 @@ main {
     flex-direction: column;
 }
 
-.panel-img img {
-    max-width: 100%;
-}
-
 .panel-img {
     display: flex;
     justify-content: center;
 }
 
-#overview .panel-desc {
-    padding-right: 20%;
+#daa {
+    background-color: #C7CCD1;
+}
+
+#activity-manager {
+    background-color: #06C3C6;
 }
 
 #portrait {
     width: 75%;
-    height: auto;
     margin-top: 3em;
+}
+
+footer {
+    background-color: #2E3338;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer p {
+    margin-right: 10%;
+    color: #fefaf6;
 }
 
 /* TYPOGRAPHY */
@@ -94,8 +110,10 @@ body {
     margin: 0;
     font-family: 'Roboto', Helvetica, sans-serif;
     font-weight: 300;
+    color: #110B11;
 }
 
 h1 {
     font-size: 3em;
+    
 }
