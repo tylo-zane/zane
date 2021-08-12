@@ -2,6 +2,36 @@
 
 /* CONTENT AREAS */
 
+header {
+    background-color: #fefaf6;
+    position: sticky;
+    width: 100%;
+}
+
+
+main {
+    background-color: #f2e3cc;   
+}
+
+ul li {
+    padding: 1.5em .75em;
+    transition: 0.2s linear;
+}
+
+ul li:hover {
+    background-color: #f2e3cc;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.25em;
+}
 
 /* TYPOGRAPHY */
 
+body {
+    margin: 0;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: 300;
+}
