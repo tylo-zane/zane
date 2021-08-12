@@ -6,11 +6,32 @@ header {
     background-color: #fefaf6;
     position: sticky;
     width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
+header nav, #logo-container {
+    flex-basis: 50%;
+}
 
-main {
-    background-color: #f2e3cc;   
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+#logo-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#logo-container img {
+    max-height: 33%;
+    margin-right: 20%;
 }
 
 ul li {
@@ -28,10 +49,53 @@ ul li a {
     font-size: 1.25em;
 }
 
+main {
+    background-color: #f2e3cc;   
+}
+
+.panel {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.panel-img, .panel-desc {
+    flex-basis: 50%;
+}
+
+.panel-desc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.panel-img img {
+    max-width: 100%;
+}
+
+.panel-img {
+    display: flex;
+    justify-content: center;
+}
+
+#overview .panel-desc {
+    padding-right: 20%;
+}
+
+#portrait {
+    width: 75%;
+    height: auto;
+    margin-top: 3em;
+}
+
 /* TYPOGRAPHY */
 
 body {
     margin: 0;
     font-family: 'Roboto', Helvetica, sans-serif;
     font-weight: 300;
+}
+
+h1 {
+    font-size: 3em;
 }
