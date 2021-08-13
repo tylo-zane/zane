@@ -2,6 +2,8 @@
 
 /* CONTENT AREAS */
 
+/* Header */
+
 header {
     top: 0;
     background-color: #fefaf6;
@@ -50,6 +52,8 @@ ul li a {
     font-size: 1.25em;
 }
 
+/* Main */
+
 main {
     background-color: #f2e3cc;   
 }
@@ -58,10 +62,6 @@ main {
     display: flex;
     flex-direction: row;
     width: 100%;
-}
-
-.panel-img, .panel-desc {
-    flex-basis: 40%;
 }
 
 .panel-margin {
@@ -80,28 +80,44 @@ main {
     justify-content: center;
 }
 
+.panel-img img {
+    margin-top: 3em;
+}
+
+#overview .panel-img, #overview .panel-desc{
+    flex-basis: 40%;
+}
+
+#portrait {
+    width: 75%;
+}
+
 #daa {
     background-color: #C7CCD1;
 }
 
 #activity-manager {
-    background-color: #06C3C6;
+    background-color: #ADF7FF;
 }
 
-#portrait {
-    width: 75%;
-    margin-top: 3em;
+#daa, #activity-manager {
+    padding-bottom: 2em;
 }
+
+#daa img, #activity-manager img {
+    max-width: 70%;
+}
+
+/* Footer */
 
 footer {
-    background-color: #2E3338;
+    background-color: #fefaf6;
     display: flex;
     justify-content: flex-end;
 }
 
 footer p {
     margin-right: 10%;
-    color: #fefaf6;
 }
 
 /* TYPOGRAPHY */
