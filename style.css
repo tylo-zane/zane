@@ -61,39 +61,32 @@ main {
 .panel {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     width: 100%;
 }
 
 .panel-margin {
     width: 100%;
-    flex-basis: 20%;
+    flex-basis: 10%;
 }
 
 .panel-desc {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    flex-basis: 40%;
 }
 
 .panel-img {
     display: flex;
     justify-content: center;
-}
-
-.panel-img img {
-    margin-top: 3em;
-}
-
-#overview .panel-img, #overview .panel-desc{
-    flex-basis: 40%;
-}
-
-#portrait {
-    width: 75%;
+    padding-top: 3em;
+    width: 100%;
 }
 
 #daa {
     background-color: #C7CCD1;
+    justify-content: flex-end;
 }
 
 #activity-manager {
@@ -104,8 +97,12 @@ main {
     padding-bottom: 2em;
 }
 
+#overview .panel-img {
+    max-width: 20%;
+}
+
 #daa img, #activity-manager img {
-    max-width: 70%;
+    max-width: 25%;
 }
 
 /* Footer */
