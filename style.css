@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;60;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 /* CONTENT AREAS */
 
@@ -71,6 +72,11 @@ main {
     flex-basis: 10%;
 }
 
+.panel-margin-5 {
+    width: 100%;
+    flex-basis: 5%;
+}
+
 .panel-desc {
     display: flex;
     justify-content: center;
@@ -83,24 +89,32 @@ main {
     justify-content: center;
     padding-top: 3em;
     width: 100%;
-    align-self: flex-end;
+    align-self: flex-start;
 }
 
-#daa {
+/* #daa {
     background-color: #C7CCD1;
-    justify-content: flex-end;
 }
 
 #activity-manager {
     background-color: #ADF7FF;
-}
+} */
 
-#daa, #activity-manager {
+#daa, #activity-manager, #misc {
+    background-color: #fefaf6;
     padding-bottom: 2em;
+    justify-content: center;
 }
 
-#daa .panel-desc, #activity-manager .panel-desc {
-    justify-content: center;
+#daa .panel-desc, #activity-manager .panel-desc, #misc .panel-desc {
+    padding-top: 3em;
+    justify-content: flex-start;
+}
+
+#activity-manager .panel-desc, #misc .panel-desc, 
+#activity-manager .panel-img, #misc .panel-img,
+#activity-manager .panel-margin-5, #misc .panel-margin-5 {
+    border-top: .125rem solid #110B11;
 }
 
 #overview .panel-img {
@@ -112,7 +126,11 @@ main {
 }
 
 #activity-manager img {
-    max-width: 25%;
+    max-width: 30%;
+}
+
+#misc img {
+    max-width: 35%;
 }
 
 /* Footer */
@@ -137,18 +155,31 @@ body {
 }
 
 h1, h2 {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+h1 {
     font-size: 3em;
 }
 
 h2 {
-    margin-bottom: 0.5em;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 0em;
 }
 
 .panel p {
     margin-bottom: 0;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 400;
 }
 
 .panel a {
     color: #00707A;
     text-decoration: underline;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: initial;
 }
