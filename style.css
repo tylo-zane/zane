@@ -57,7 +57,7 @@ ul li a {
 /* Main */
 
 main {
-    background-color: #f2e3cc;   
+    background-color: #fefaf6;   
 }
 
 .panel {
@@ -70,11 +70,6 @@ main {
 .panel-margin {
     width: 100%;
     flex-basis: 10%;
-}
-
-.panel-margin-5 {
-    width: 100%;
-    flex-basis: 5%;
 }
 
 .panel-desc {
@@ -92,28 +87,26 @@ main {
     align-self: flex-start;
 }
 
-/* #daa {
-    background-color: #C7CCD1;
+#overview {
+    background-color: #f2e3cc;
 }
-
-#activity-manager {
-    background-color: #ADF7FF;
-} */
 
 #daa, #activity-manager, #misc {
     background-color: #fefaf6;
     padding-bottom: 2em;
-    justify-content: center;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    justify-content: space-between;
 }
 
 #daa .panel-desc, #activity-manager .panel-desc, #misc .panel-desc {
     padding-top: 3em;
     justify-content: flex-start;
+    flex-basis: 55%;
 }
 
-#activity-manager .panel-desc, #misc .panel-desc, 
-#activity-manager .panel-img, #misc .panel-img,
-#activity-manager .panel-margin-5, #misc .panel-margin-5 {
+#activity-manager, #misc {
     border-top: .125rem solid #110B11;
 }
 
@@ -122,15 +115,15 @@ main {
 }
 
 #daa img {
-    max-width: 30%;
+    max-width: 40%;
 }
 
 #activity-manager img {
-    max-width: 30%;
+    max-width: 40%;
 }
 
 #misc img {
-    max-width: 30%;
+    max-width: 40%;
 }
 
 /* Footer */
