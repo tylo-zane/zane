@@ -127,6 +127,7 @@ footer {
     background-color: #fefaf6;
     display: flex;
     justify-content: flex-end;
+    bottom: 0;
 }
 
 footer p {
