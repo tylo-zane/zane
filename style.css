@@ -255,6 +255,10 @@ h2 {
     background-color: #F4F5F6;
 }
 
+::selection {
+    background-color: #DDE1E3;
+  }
+
 .hidden {
     display: none;
 }
