@@ -4,27 +4,39 @@
     window.addEventListener("load", initialize);
  
    /**
-    * Initializes the webpage by adding event listeners to each node.
+    * Initializes the webpage by adding event listeners to each button.
     */
     function initialize() {
         document.querySelector("#work-bttn").addEventListener("click", toggleWork);
         document.querySelector("#about-bttn").addEventListener("click", toggleAbout);
+        document.querySelector("#contact-bttn").addEventListener("click", toggleContact);
     }
 
    /**
-    * Toggles the 'Work' page.
+    * Toggles visbility of the 'Work' page.
     */
     function toggleWork() {
         showWork();
         hideAbout();
+        hideContact();
     }
 
    /**
-    * Toggles the 'About' page.
+    * Toggles visbility of the 'About' page.
     */
     function toggleAbout() {
         hideWork();
         showAbout();
+        hideContact();
+    }
+
+   /**
+    * Toggles visbility of the 'Contact' page.
+    */
+    function toggleContact() {
+        hideWork();
+        hideAbout();
+        showContact();
     }
 
    /**
@@ -63,6 +75,22 @@
     function hideAbout() {
         document.querySelector("#about-bttn").classList.remove("clicked");
         document.querySelector("#about").classList.add("hidden");
+    }
+
+    /**
+    * Shows panels of the 'Contact' page.
+    */
+    function showContact() {
+        document.querySelector("#contact-bttn").classList.add("clicked");
+        document.querySelector("#contact").classList.remove("hidden");
+    }
+
+    /**
+    * Hides panels of the 'Contact' page.
+    */
+     function hideContact() {
+        document.querySelector("#contact-bttn").classList.remove("clicked");
+        document.querySelector("#contact").classList.add("hidden");
     }
  
  })();
