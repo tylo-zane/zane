@@ -124,10 +124,10 @@ main {
 }
 
 #activity-manager, #misc {
-    border-top: .1rem solid #110B11;
+    border-top: .05rem solid #110B11;
 }
 
-#overview .panel-img {
+#overview img {
     max-width: 20%;
 }
 
@@ -249,6 +249,7 @@ h2 {
     text-decoration: underline;
     font-style: initial;
     transition: 0.2s linear;
+    cursor: pointer;
 }
 
 .panel a:hover {
