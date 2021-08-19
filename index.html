@@ -5,15 +5,17 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Zane's Portfolio</title>
    <link rel="stylesheet" type="text/css" href="style.css">
+   <script src="index.js"></script>
+</head>
 </head>
 <body>
   <header>
     <nav>
       <ul>
-        <li><a href="">Work</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Resume</a></li>
-        <li><a href="">Contact</a></li>
+        <li id="work-bttn"><a>Work</a></li>
+        <li id="about-bttn"><a>About</a></li>
+        <li id="resume-bttn"><a>Resume</a></li>
+        <li id="contact-bttn"><a>Contact</a></li>
       </ul>
     </nav>
     <div id="logo-container">
@@ -72,6 +74,27 @@
       </div>
       <img src="img/misc.png" class="panel-img" alt="tentative headshot">
     </div>
+    <div class="panel hidden" id="about">
+      <img src="img/portrait-square.png" class="panel-img" alt="tentative headshot">
+      <div class="panel-desc">
+          <h2>
+              I’m Seán, a Product Designer working remotely for Help Scout on their mobile
+              products in sunny Dublin, Ireland.
+          </h2>
+          <p>
+              I am a curious, self driven product designer who is passionate in emerging 
+              technologies, social good, advocating ux design across all fields of work, 
+              facilitating design education, bridging diverse communities, and being a role
+              model for women and designers looking to grow in their careers.
+          </p>
+          <p>
+              Touched by their encouragement and willingness to teach me, I strive to 
+              do the same, whether it’s writing weekly about my design experiences on medium, 
+              teaching, speaking about design, and empowering teammates in collaborative 
+              settings as a leader with a big heart.
+          </p>
+      </div>
+  </div>
   </main>
   <footer>
     <p>Located in: Seattle, WA</p>

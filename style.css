@@ -47,6 +47,10 @@ ul li:hover {
     background-color: #f2e3cc;
 }
 
+.clicked {
+    text-decoration: underline;
+}
+
 ul li a {
     text-decoration: none;
     color: #110B11;
@@ -55,7 +59,11 @@ ul li a {
 
 /* Main */
 
-main {
+body {
+    overflow-y: scroll;
+}
+
+body, main {
     background-color: #fefaf6;   
 }
 
@@ -79,8 +87,6 @@ main {
 }
 
 .panel-img {
-    display: flex;
-    justify-content: center;
     padding-top: 3em;
     width: 100%;
     align-self: flex-start;
@@ -93,9 +99,9 @@ main {
 #daa, #activity-manager, #misc {
     background-color: #fefaf6;
     padding-bottom: 2em;
-    width: 75%;
     margin-left: 12.5%;
     margin-right: 12.5%;
+    width: 75%;
     justify-content: space-between;
 }
 
@@ -113,12 +119,34 @@ main {
     max-width: 20%;
 }
 
-#daa img, #activity-manager img {
+#daa img, #activity-manager img, #misc img{
     max-width: 40%;
 }
 
-#misc img {
-    max-width: 40%;
+/* ABOUT Page Elements */
+
+#about {
+    justify-content: space-evenly;
+}
+
+#about h2 {
+    padding-bottom: 0.5em;
+}
+
+#about .panel-desc {
+    flex-basis: 40%;
+    padding-bottom: 4em;
+    padding-top: 4em;
+    justify-content: flex-end;
+}
+
+#about img {
+    max-width: 30%;
+    align-self: flex-end;
+    padding-top: 0;
+    margin-bottom: 4em;
+    background-color: #f2e3cc;
+    border-radius: 5em;
 }
 
 /* Footer */
@@ -173,6 +201,6 @@ h2 {
     background-color: #F4F5F6;
 }
 
-.clicked {
-    color: #110B11
+.hidden {
+    display: none;
 }
