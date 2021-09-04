@@ -98,9 +98,23 @@ main {
 }
 
 .panel-img {
-    padding-top: 3em;
-    width: 100%;
-    align-self: flex-start;
+    max-width: 30vw;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#daa .panel-img {
+    background-color: #fdf0d5;
+}
+
+#activity-manager .panel-img {
+    background-color: #D3EEDF;
+}
+
+#misc .panel-img {
+    background-color: #EBEBEB;
 }
 
 #overview {
@@ -109,7 +123,6 @@ main {
 
 #daa, #activity-manager, #misc {
     background-color: #fefaf6;
-    padding-bottom: 2em;
     margin-left: 12.5%;
     margin-right: 12.5%;
     width: 75%;
@@ -119,6 +132,7 @@ main {
 
 #daa .panel-desc, #activity-manager .panel-desc, #misc .panel-desc {
     padding-top: 3em;
+    padding-bottom: 2em;
     justify-content: flex-start;
     flex-basis: 55%;
 }
@@ -128,11 +142,17 @@ main {
 }
 
 #overview img {
+    padding-top: 3em;
+    align-self: flex-start;
     max-width: 20%;
 }
 
-#daa img, #activity-manager img, #misc img{
-    max-width: 40%;
+#daa img {
+    max-width: 75%;
+}
+
+#activity-manager img, #misc img {
+    max-width: 80%;
 }
 
 /* 'About Page' Elements */
