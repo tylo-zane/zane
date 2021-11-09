@@ -121,7 +121,7 @@ main {
     background-color: #f2e3cc;
 }
 
-#daa, #activity-manager, #misc, .margin-content {
+#daa, #activity-manager, #misc, .margin-content, .mockup-overview {
     background-color: #fefaf6;
     margin-left: 12.5%;
     margin-right: 12.5%;
@@ -244,6 +244,21 @@ main {
     padding-bottom: 1em;
 }
 
+.center-title {
+    align-self: center;
+    padding-bottom: 0.5em;
+}
+
+.mockup-overview {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1em;
+}
+
+.mockup-overview div {
+    text-align: center;
+}
+
 .margin-content *{
     max-width: 50%;
 }
@@ -302,9 +317,12 @@ body {
     color: #110B11;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: futura-pt, Helvetica, sans-serif;
-    font-weight: 300;
+    font-weight: 300; 
+}
+
+h1, h2 {
     text-transform: uppercase;
 }
 
@@ -315,6 +333,10 @@ h1 {
 h2 {
     font-size: 2em;
     margin-bottom: 0em;
+}
+
+h3 {
+    font-weight: bold;
 }
 
 .panel p {
