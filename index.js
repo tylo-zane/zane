@@ -61,6 +61,7 @@
         showDAA();
         hideAM();
         hideMisc();
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
     }
 
     /**
@@ -73,6 +74,7 @@
         hideDAA();
         showAM();
         hideMisc();
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
     }
 
     /**
@@ -85,6 +87,7 @@
         hideDAA();
         hideAM();
         showMisc();
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
     }
 
    /**
