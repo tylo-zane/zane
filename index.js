@@ -10,6 +10,9 @@
         document.querySelector("#work-bttn").addEventListener("click", toggleWork);
         document.querySelector("#about-bttn").addEventListener("click", toggleAbout);
         document.querySelector("#contact-bttn").addEventListener("click", toggleContact);
+        document.querySelector("#daa-bttn").addEventListener("click", toggleDAA);
+        document.querySelector("#am-bttn").addEventListener("click", toggleAM);
+        document.querySelector("#misc-bttn").addEventListener("click", toggleMisc);
     }
 
    /**
@@ -19,6 +22,9 @@
         showWork();
         hideAbout();
         hideContact();
+        hideDAA();
+        hideAM();
+        hideMisc();
     }
 
    /**
@@ -28,6 +34,9 @@
         hideWork();
         showAbout();
         hideContact();
+        hideDAA();
+        hideAM();
+        hideMisc();
     }
 
    /**
@@ -37,6 +46,45 @@
         hideWork();
         hideAbout();
         showContact();
+        hideDAA();
+        hideAM();
+        hideMisc();
+    }
+
+   /**
+    * Toggles visbility of the 'Design Against Anxiety' page.
+    */
+    function toggleDAA() {
+        hideWork();
+        hideAbout();
+        hideContact();
+        showDAA();
+        hideAM();
+        hideMisc();
+    }
+
+    /**
+    * Toggles visbility of the 'Activity Manager' page.
+    */
+    function toggleAM() {
+        hideWork();
+        hideAbout();
+        hideContact();
+        hideDAA();
+        showAM();
+        hideMisc();
+    }
+
+    /**
+    * Toggles visbility of the 'Miscellaneous' page.
+    */
+     function toggleMisc() {
+        hideWork();
+        hideAbout();
+        hideContact();
+        hideDAA();
+        hideAM();
+        showMisc();
     }
 
    /**
@@ -91,6 +139,48 @@
      function hideContact() {
         document.querySelector("#contact-bttn").classList.remove("clicked");
         document.querySelector("#contact").classList.add("hidden");
+    }
+
+    /**
+    * Shows panels of the 'Design Against Anxiety' page.
+    */
+    function showDAA() {
+        document.querySelector("#daa-page").classList.remove("hidden");
+    }
+
+    /**
+    * Hides panels of the 'Design Against Anxiety' page.
+    */
+    function hideDAA() {
+        document.querySelector("#daa-page").classList.add("hidden");
+    }
+
+    /**
+    * Shows panels of the 'Activity Manager' page.
+    */
+    function showAM() {
+        document.querySelector("#am-page").classList.remove("hidden");
+    }
+
+    /**
+    * Hides panels of the 'Activity Manager' page.
+    */
+    function hideAM() {
+        document.querySelector("#am-page").classList.add("hidden");
+    }
+
+    /**
+    * Shows panels of the 'Miscellaneous' page.
+    */
+    function showMisc() {
+        document.querySelector("#misc-page").classList.remove("hidden");
+    }
+
+    /**
+    * Hides panels of the 'Miscellaneous' page.
+    */
+    function hideMisc() {
+        document.querySelector("#misc-page").classList.add("hidden");
     }
  
  })();
