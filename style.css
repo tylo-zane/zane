@@ -223,6 +223,39 @@ main {
     margin-top: 0;
 }
 
+/* Mockup Pages */
+
+.mockup-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mockup-container img {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+#daa-page .mockup-container img {
+    max-width: 25%;
+}
+
+#am-page .mockup-container img, #misc-page .mockup-container img {
+    max-width: 30%;
+}
+
+#daa-page .mockup-container {
+    background-color: #fdf0d5;
+}
+
+#am-page .mockup-container {
+    background-color: #D6F5FF;
+}
+
+#misc-page .mockup-container {
+    background-color: #EBEBEB;
+}
+
 /* Footer */
 
 footer {
