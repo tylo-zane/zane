@@ -230,7 +230,7 @@ main {
 }
 
 #daa-page .break, #am-page .break, #misc-page .break {
-    height: .025rem;
+    height: 0.5px;
     width: 75%;
     margin-left: 12.5%;
     margin-right: 12.5%;
@@ -358,6 +358,10 @@ h3 {
 ::selection {
     background-color: #DDE1E3;
   }
+
+.small-header {
+    font-size: 1.5em;
+}
 
 .hidden {
     display: none;
