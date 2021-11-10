@@ -263,8 +263,12 @@ main {
     max-width: 50%;
 }
 
-.margin-content div p {
+.margin-content div p, .margin-content div h2 {
     max-width: 100%;
+}
+
+.margin-content div img {
+    margin-top: 2em;
 }
 
 .mockup-container {
