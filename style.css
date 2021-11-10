@@ -271,6 +271,10 @@ main {
     margin-top: 2em;
 }
 
+#misc-page .margin-content div img {
+    border-radius: 10px;
+}
+
 .mockup-container {
     width: 100%;
     display: flex;
