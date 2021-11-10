@@ -263,6 +263,10 @@ main {
     max-width: 50%;
 }
 
+.margin-content div p {
+    max-width: 100%;
+}
+
 .mockup-container {
     width: 100%;
     display: flex;
