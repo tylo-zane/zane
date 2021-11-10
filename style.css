@@ -39,6 +39,10 @@ header nav ul {
     margin-right: 20%;
 }
 
+#logo-container img:hover {
+    cursor: pointer;
+}
+
 ul li {
     padding: 1.5em .75em;
     transition: 0.2s linear;

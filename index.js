@@ -8,6 +8,7 @@
     */
     function initialize() {
         document.querySelector("#work-bttn").addEventListener("click", toggleWork);
+        document.querySelector("#logo-container img").addEventListener("click", toggleWork);
         document.querySelector("#about-bttn").addEventListener("click", toggleAbout);
         document.querySelector("#contact-bttn").addEventListener("click", toggleContact);
         document.querySelector("#daa-bttn").addEventListener("click", toggleDAA);
