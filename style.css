@@ -248,6 +248,11 @@ main {
     padding-bottom: 1em;
 }
 
+.one-column {
+    flex-direction: column;
+    padding-top: 0;
+}
+
 .center-title {
     align-self: center;
     padding-bottom: 0.5em;
@@ -267,12 +272,26 @@ main {
     max-width: 50%;
 }
 
-.margin-content div p, .margin-content div h2 {
+.one-column * {
+    max-width: none;
+}
+
+.margin-content div p, .margin-content div h2,
+.margin-content div ul, .margin-content div ul li,
+.margin-content div h3 {
     max-width: 100%;
 }
 
 .margin-content div img {
     margin-top: 2em;
+    max-width: 75%;
+}
+
+.margin-content div ul li {
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 #misc-page .margin-content div img {
