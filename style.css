@@ -281,6 +281,10 @@ main {
     justify-content: flex-end;
 }
 
+.ref {
+    font-size: 11px;
+}
+
 .margin-content div p, .margin-content div h2,
 .margin-content div ul, .margin-content div ul li,
 .margin-content div h3 {
