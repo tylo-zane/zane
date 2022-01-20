@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 @import url("https://use.typekit.net/dqd4olk.css");
+@import url("https://use.typekit.net/dqd4olk.css");
 
 /* CONTENT AREAS */
 
@@ -357,9 +358,13 @@ footer p {
 
 body {
     margin: 0;
-    font-family: 'Roboto', Helvetica, sans-serif;
+    font-family: proxima-nova, 'Roboto', Helvetica, sans-serif;
     font-weight: 300;
     color: #110B11;
+}
+
+p {
+    font-size: 11pt;
 }
 
 h1, h2, h3 {
