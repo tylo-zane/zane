@@ -280,6 +280,16 @@ main {
 .small-img {
     display: flex;
     justify-content: flex-end;
+    width: 100%;
+}
+
+.small-img img {
+    width: 35%;
+    margin-right: 25%;
+}
+
+.small-img img, .radius {
+    border-radius: 25px;
 }
 
 .ref {
