@@ -287,7 +287,8 @@ main {
 
 .margin-content div p, .margin-content div h2,
 .margin-content div ul, .margin-content div ul li,
-.margin-content div h3 {
+.margin-content div h3, .margin-content div ol,
+.margin-content div ol li {
     max-width: 100%;
 }
 
