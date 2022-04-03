@@ -163,6 +163,7 @@ main {
 /* 'About Page' Elements */
 
 #about {
+    padding-top: 2.5em;
     justify-content: space-evenly;
     animation-name: reveal-about;
 }
