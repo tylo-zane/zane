@@ -51,7 +51,7 @@ ul li {
 }
 
 ul li:hover {
-    background-color: #f2e3cc;
+    background-color: #edebe9;
     cursor: pointer;
 }
 
@@ -127,7 +127,7 @@ main {
 }
 
 #overview {
-    background-color: #ecebea;
+    background-color: #edebe9;
 }
 
 #daa, #activity-manager, #misc, #ahs, .margin-content, .mockup-overview {
