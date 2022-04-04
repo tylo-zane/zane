@@ -8,10 +8,14 @@ Showcased works include:
 
 A tool for user interface designers to mitigate the anxiety experienced by their users. 
 
-## Activity Manager
+## Physical Augmented Reality Therapy
 
-Mitigates the deceptive design and unnecessary hurdles put into place by Google's My Activity tool. 
+PART is an assistive augmented reality application for physical therapy patients and practitioners. 
 
-## Miscellaneous
+## Project Block
 
 Miscellaneous side projects, including an online choose-your-own adventure game and unofficial Pokemon Deck Builder.
+
+## Advanced Heated Storage
+
+Offers easy access to info on this small business while facilitating the process of making rental payments. 

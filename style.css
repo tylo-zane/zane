@@ -115,18 +115,22 @@ main {
 }
 
 #activity-manager .panel-img {
-    background-color: #D6F5FF;
+    background-color: #e4cedb;
 }
 
 #misc .panel-img {
-    background-color: #EBEBEB;
+    background-color: #E2E0DF;
+}
+
+#ahs .panel-img {
+    background-color: #D6F5FF;
 }
 
 #overview {
-    background-color: #f2e3cc;
+    background-color: #ecebea;
 }
 
-#daa, #activity-manager, #misc, .margin-content, .mockup-overview {
+#daa, #activity-manager, #misc, #ahs, .margin-content, .mockup-overview {
     background-color: #fefaf6;
     margin-left: 12.5%;
     margin-right: 12.5%;
@@ -135,19 +139,20 @@ main {
     animation-name: reveal-75;
 }
 
-#daa .panel-desc, #activity-manager .panel-desc, #misc .panel-desc {
+#daa .panel-desc, #activity-manager .panel-desc, #misc .panel-desc,
+#ahs .panel-desc {
     padding-top: 3em;
     padding-bottom: 2em;
     justify-content: flex-start;
     flex-basis: 55%;
 }
 
-#activity-manager, #misc {
+#activity-manager, #misc, #ahs {
     border-top: .05rem solid #110B11;
 }
 
 #overview img {
-    padding-top: 3em;
+    padding-top: 5em;
     align-self: flex-start;
     max-width: 20%;
 }
@@ -158,6 +163,27 @@ main {
 
 #activity-manager img, #misc img {
     max-width: 80%;
+}
+
+#ahs img {
+    max-width: 60%;
+}
+
+.git {
+    align-self: flex-end;
+    width: 50px;
+    height: 50px;
+    right: 50%;
+    bottom: 0;
+}
+
+.git img {
+    max-width: 75% !important;
+}
+
+.git:hover {
+    background-color: #fefaf6;
+    opacity: 50%;
 }
 
 /* 'About Page' Elements */
