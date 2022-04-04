@@ -100,6 +100,7 @@
         document.querySelector("#daa").classList.remove("hidden");
         document.querySelector("#activity-manager").classList.remove("hidden");
         document.querySelector("#misc").classList.remove("hidden");
+        document.querySelector("#ahs").classList.remove("hidden");
     }
 
    /**
@@ -111,6 +112,7 @@
         document.querySelector("#daa").classList.add("hidden");
         document.querySelector("#activity-manager").classList.add("hidden");
         document.querySelector("#misc").classList.add("hidden");
+        document.querySelector("#ahs").classList.add("hidden");
     }
 
    /**
