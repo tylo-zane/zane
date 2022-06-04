@@ -15,7 +15,3 @@ PART is an assistive augmented reality application for physical therapy patients
 ## Project Block
 
 Miscellaneous side projects, including an online choose-your-own adventure game and unofficial Pokemon Deck Builder.
-
-## Advanced Heated Storage
-
-Offers easy access to info on this small business while facilitating the process of making rental payments. 
