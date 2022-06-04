@@ -132,7 +132,7 @@ main {
 
 #overview {
     background-color: #edebe9;
-    padding-bottom: 4em;
+    padding-bottom: 5vh;
 }
 
 #daa, #activity-manager, #misc, #ahs, .margin-content, .mockup-overview {
@@ -475,11 +475,9 @@ h3 {
 
 #overview .panel-desc {
     padding-left: 30%;
-    padding-bottom: 15%;
-}
-
-#overview h1 {
-    padding-top: 2em;
+    padding-bottom: 5vh;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
 }
 
 /* ANIMATION */
