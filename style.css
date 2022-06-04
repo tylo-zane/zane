@@ -544,7 +544,7 @@ h3 {
 
     .box {
         -webkit-transform-style: preserve-3d;
-        -webkit-animation: rotate 10s infinite linear;
+        -webkit-animation: rotate 20s infinite linear;
     }
 
     .side-front { 
